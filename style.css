@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9; /* Warna latar belakang */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Warna teks */
+  line-height: 1.6;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff; /* Warna latar putih */
+  border: 1px solid #ddd; /* Bingkai tipis */
+  border-radius: 10px; /* Sudut melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+h1 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse; /* Hapus garis ganda */
+  margin-bottom: 20px;
+}
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+table th {
+  background-color: #f8f9fa; /* Latar belakang header */
+  color: #555;
+}
+table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Warna latar sel bergantian */
+}
+.total {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 10px;
+  text-align: right;
+}
+.thank-you {
+  text-align: center;
+  font-size: 1.1em;
+  color: #007bff; /* Warna biru */
+  margin-top: 20px;
+}
